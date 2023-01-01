@@ -6,5 +6,6 @@ function removerdd() {
 
 function projetos() {
     document.getElementById('project').classList.remove('disabled') 
-    document.getElementById('homeText').classList.add('disabled')     
+    document.getElementById('homeText').classList.add('disabled')
+    document.getElementById('infos').classList.add('disabled')     
 }

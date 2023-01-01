@@ -10,11 +10,11 @@
 
 body {
     background-image: url("img/bg.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
     background-color: #cccccc;
     background-size: cover;
-    height: 99vh;
+    height: 100vh;
 }
 
 .nav a {
@@ -32,4 +32,13 @@ body {
 
 #contact {
     height: 99vh;
+}
+
+.row a {
+    text-decoration: none;
+    color: white;
+}
+
+.row {
+    margin-bottom: 15px;    
 }
