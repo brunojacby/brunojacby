@@ -10,15 +10,21 @@
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon.ico">
     <title>Bruno Jacby</title>
 </head>
-<body>
-    <div class="container">
-        <nav class="nav nav-pills ">
-            <a class="nav-link" href="#">My Projects</a>
-        </nav>
-        
-        <h1>Bruno Jacby</h1>
-        <h2>My Projects</h2>
+<body class="bg-light">
+  <div class="container">
+      <nav class="nav nav-pills">
+          <a class="nav-link" href="/">Home</a>
+          <a class="nav-link" href="#" onclick="projetos()">My Projects</a>
+          <a class="nav-link" href="#" onclick="removerdd()">Contact</a>
+      </nav>
 
+      <div id="homeText">
+        <h1>I am Bruno Jacby</h1>
+        <h2>I'm a Front-end Developer</h2>
+        <button id="btnHireMe" class="btn btn-warning" onclick="removerdd()">Hire Me</button>
+      </div>
+
+      <div class="projects disabled" id="project">
         <div class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col">
               <div class="card border-info">
@@ -61,9 +67,31 @@
               </div>
             </div>
           </div>
+      </div>
 
-
-
+      <div id="infos" class="disabled">
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="floatingInputDisabled" placeholder="name@example.com" disabled>
+          <label for="floatingInputDisabled">Email address</label>
+        </div>
+        <div class="form-floating mb-3">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextareaDisabled" disabled></textarea>
+          <label for="floatingTextareaDisabled">Comments</label>
+        </div>
+        <div class="form-floating mb-3">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2Disabled" style="height: 100px" disabled></textarea>
+          <label for="floatingTextarea2Disabled">Comments</label>
+        </div>
+        <div class="form-floating">
+          <select class="form-select" id="floatingSelectDisabled" aria-label="Floating label disabled select example" disabled>
+            <option selected>Open this select menu</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+          <label for="floatingSelectDisabled">Works with selects</label>
+        </div>
+      </div>
 
     </div>
     <script src="script.js"></script>

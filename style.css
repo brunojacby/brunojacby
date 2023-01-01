@@ -4,6 +4,32 @@
     box-sizing: border-box;
 }
 
-h1 {
-    color: blue;
+.disabled {
+    display: none;
+}
+
+body {
+    background-image: url("img/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #cccccc;
+    background-size: cover;
+    height: 99vh;
+}
+
+.nav a {
+    margin-bottom: 15px;
+}
+
+#homeText {
+    text-align: center;
+    color: white;
+}
+
+#project {
+    height: 99vh;
+}
+
+#contact {
+    height: 99vh;
 }
