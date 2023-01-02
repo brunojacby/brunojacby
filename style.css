@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -109,7 +111,7 @@
     letter-spacing: 0.1em;
     transition: 0.5s;
     border: 2px solid rgba(0,0,0,0.5);
-    top: 150px;
+    margin-top: 60px;
     border-radius: 7px; 
     font-weight: bold;  
 }
@@ -238,6 +240,7 @@ body {
 
 .nav a {
     margin-bottom: 15px;
+    color: white; 
 }
 
 #homeText {
@@ -263,7 +266,48 @@ body {
     margin-bottom: 15px;    
 }
 
-#infos {    
+#infos { 
     padding: 30px;
-    color: #fff;
+    color: white;
+    width: 100%;
+    background-color: black; 
+}
+
+.textoinfo {    
+    display: flex;    
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.textoinfo div {    
+    display: flex;    
+    flex-wrap: wrap;
+}
+
+#infos img {
+    background-color: #cccccc;
+    border-radius: 50%;
+}
+
+.skills {
+    width: 100%; 
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 55px;   
+}
+
+.skills p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 4em;
+    color: white; 
+    text-transform: uppercase;  
+    
+}
+
+.skills p:hover {
+    color: transparent; 
+    -webkit-text-stroke: 1px white;
+    text-indent: 10px;
+    transition: 0.5s;
+    letter-spacing: 0.1em;     
 }
