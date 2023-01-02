@@ -21,95 +21,89 @@
       <div id="homeText">
         <h1 class="display-1">I am Bruno Jacby</h1>
         <h2 class="display-4">I'm a Front-end Developer</h2>
-        <button id="btnHireMe" class="btn btn-warning" onclick="removerdd()">Hire Me</button>
-      </div>
+        <div id="btnHireMe">
+          <a href="#" style="--clr:white" onclick="removerdd()">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Hire Me
+          </a>         
+        </div> 
+      </div>  
 
-      <div class="container">
-        <div class="projects disabled" id="project">
-          <div class="row row-cols-1 row-cols-md-2 g-4">
-              <div class="col">
-                <div class="card border-info">
-                  <img src="img/cartas.jpg" class="card-img-top" alt="Card Project" height="250px">
-                  <div class="card-body">
-                    <h5 class="card-title">JavaScript Project</h5>
-                    <p class="card-text">A card game using JavaScript, HTML5, CSS and Bootstrap.</p>
-                    <a href="https://brunojacby.github.io/cardgame/" class="btn btn-primary" target="_blank">Play!</a>
-                  </div>
-                </div>
+      <div class="projects disabled" id="project">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+
+          <div class="col">
+            <div id="cardLayout">
+              <span></span>
+              <div class="content">
+                <img src="img/cartas.jpg" class="card-img-top" alt="Card Project">
+                <h2>JavaScript Project</h2>
+                <p>A card game using JavaScript, HTML5, CSS and Bootstra</p>
+                <a href="https://brunojacby.github.io/cardgame/" class="btn" target="_blank">Play!</a>
               </div>
-              <div class="col">
-                <div class="card border-info">
-                  <img src="img/barber.png" height="250px" class="card-img-top" alt="Barber Shop Project">
-                  <div class="card-body">
-                    <h5 class="card-title">Barber Shop</h5>
-                    <p class="card-text">A Landing page project using HTML and CSS.</p>
-                    <a href="https://brunojacby.github.io/barbershop/" target="_blank" class="btn btn-primary">Link</a>
-                  </div>
-                </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div id="cardLayout">
+              <span></span>
+              <div class="content">
+                <img src="img/barber.png" class="card-img-top" alt="Barber Shop Project">
+                <h2>Barber Shop</h2>
+                <p>A Landing page project using HTML and CSS.</p>
+                <a href="https://brunojacby.github.io/barbershop/" class="btn" target="_blank">Play!</a>
               </div>
-              <div class="col">
-                <div class="card border-info">
-                  <img src="img/cartas.jpg" class="card-img-top" alt="Card Project" height="250px">
-                  <div class="card-body">
-                    <h5 class="card-title">JavaScript Project</h5>
-                    <p class="card-text">A card game using JavaScript, HTML5, CSS and Bootstrap.</p>
-                    <a href="https://brunojacby.github.io/cardgame/" class="btn btn-primary" target="_blank">Play!</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card border-info">
-                  <img src="img/barber.png" height="250px" class="card-img-top" alt="Barber Shop Project">
-                  <div class="card-body">
-                    <h5 class="card-title">Barber Shop</h5>
-                    <p class="card-text">A Landing page project using HTML and CSS.</p>
-                    <a href="https://brunojacby.github.io/barbershop/" target="_blank" class="btn btn-primary">Link</a>
-                  </div>
-                </div>
-              </div>            
+            </div>
+          </div>
+          
           </div>
         </div>
       </div>
+              
 
-        <div id="infos" class="grid disabled">
-          <div class="row">
-            <div class="col-4">
-              <h2>I'm Bruno Jacby</h2>
-            </div>
+      <div id="infos" class="grid disabled">
+        <div class="row">
+          <div class="col-4">
+            <h2>I'm Bruno Jacby</h2>
           </div>
+        </div>
 
-          <div class="row">
-            <div class="col-md-1">
-              <a href="https://www.linkedin.com/in/brunojacby/" target="_blank"><img src="img/linkedin.png" alt="linkedin" width="30px"></a>          
-            </div>
-            <div class="col-md-1">
-              <a href="https://github.com/brunojacby" target="_blank"><img src="img/github.svg" alt="github" width="30px"></a>          
-            </div>
-            <div class="col-md-3">
-              <a href="tel:+351960486778"><img src="img/telefone.png" alt="tel" width="30px">  (+351) 96048 6778</a> 
-            </div> 
+        <div class="row">
+          <div class="col-md-1">
+            <a href="https://www.linkedin.com/in/brunojacby/" target="_blank"><img src="img/linkedin.png" alt="linkedin" width="30px"></a>          
           </div>
+          <div class="col-md-1">
+            <a href="https://github.com/brunojacby" target="_blank"><img src="img/github.svg" alt="github" width="30px"></a>          
+          </div>
+          <div class="col-md-3">
+            <a href="tel:+351960486778"><img src="img/telefone.png" alt="tel" width="30px">  (+351) 96048 6778</a> 
+          </div> 
+        </div>
 
-          <div class="row">
-            <div class="col-3">
-              <h3>Skills</h3>
-                <ul>
-                  <li>JavaScript</li>
-                  <li>React.js</li>
-                  <li>Node.js</li>
-                  <li>CSS / Bootstrap / jQuery</li>
-                  <li>HTML5</li>
-                  <li>GIT</li>
-                </ul>          
-            </div>
+        <div class="row">
+          <div class="col-3">
+            <h3>Skills</h3>
+              <ul>
+                <li>JavaScript</li>
+                <li>React.js</li>
+                <li>Node.js</li>
+                <li>CSS / Bootstrap / jQuery</li>
+                <li>HTML5</li>
+                <li>GIT</li>
+              </ul>          
           </div>
+        </div>
 
         </div>
       </div>
 
     </div>
+
     <script src="script.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> 
  
 </body>
 </html>
