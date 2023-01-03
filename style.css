@@ -245,7 +245,13 @@ body {
 
 #homeText {
     text-align: center;
-    color: white;    
+    color: white;      
+}
+
+#homediv {
+    display: flex;
+    justify-content: center;
+    align-items: center;       
 }
 
 #project {
@@ -334,3 +340,35 @@ h7 {
     color: yellow;
     border: 1px solid yellow;    
 }
+
+.typing {
+    border-right: 1px solid white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;    
+}
+
+.typing-animation {
+    animation: blinkCursor 500ms steps(40) infinite normal, typing 4s steps(40) 1s normal both;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 11.1em;
+    }
+}
+
+@keyframes blinkCursor {
+    from {
+        border-right-color: white;
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+
+
