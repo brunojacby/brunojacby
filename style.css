@@ -311,3 +311,26 @@ body {
     transition: 0.5s;
     letter-spacing: 0.1em;     
 }
+
+h7 {
+    color: yellow;
+}
+
+.btn {
+    margin-top: 5px;
+}
+
+.btnprojects {
+   border: 1px solid blue;
+   border-radius: 8px;
+   width: 150px;
+   margin: 10px;
+   padding: 5px 10px;
+   text-align: center;
+   background-color: rgba(22, 4, 128, 0.5);
+}
+
+.btnprojects:hover {
+    color: yellow;
+    border: 1px solid yellow;    
+}
