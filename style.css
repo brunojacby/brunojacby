@@ -3,3 +3,12 @@
 @import url("css/cube.css");
 @import url("css/home.css");
 @import url("css/typing.css");
+
+
+#sectionHome {
+    background-image: url("img/bg.jpg");
+    background-repeat: repeat;
+    background-position: center;    
+    background-size: cover;
+    background-attachment: fixed;
+}
