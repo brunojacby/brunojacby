@@ -6,6 +6,25 @@
     box-sizing: border-box;
 }
 
+body {    
+    height: 100vh;
+    width: 100vw;
+    display: flex;    
+    background-color: #111; 
+}
+
+.body1 {
+    width: 15%; 
+    background-color: #111;   
+}
+
+.body2 {
+    background-image: url("img/bg.jpg");
+    background-repeat: repeat;
+    background-position: center;    
+    background-size: cover;
+}
+
 #cardLayout {
     position: relative;
     width: 320px;
@@ -14,7 +33,7 @@
     background: #111;
     display: flex;    
     align-items: center;
-    margin: 20px 30px;
+    margin: 10px 5px;
     transition: 0.5s;
 }
 
@@ -229,14 +248,6 @@
     display: none;
 }
 
-body {
-    background-image: url("img/bg.jpg");
-    background-repeat: repeat;
-    background-position: center;
-    background-color: #cccccc;
-    background-size: cover;
-    height: 100vh;
-}
 
 .nav a {
     margin-bottom: 15px;
@@ -254,13 +265,14 @@ body {
     align-items: center;       
 }
 
-#project {
-    height: 99vh;
-    padding: 20px;    
+#project {        
+    width: 90vw;
+    background-color: #111;
+    padding: 10px 0 0 10px;  
 }
 
 #contact {
-    height: 99vh;
+    width: 90vw;     
 }
 
 .row a {
@@ -272,10 +284,9 @@ body {
     margin-bottom: 15px;    
 }
 
-#infos { 
-    padding: 30px;
-    color: white;
-    width: 100%;
+#infos {  
+    width: 100%;   
+    color: white;    
     background-color: black; 
 }
 
@@ -372,3 +383,7 @@ h7 {
 
 
 
+.section {
+    width: 100vw;
+    height: 100vh;
+}
