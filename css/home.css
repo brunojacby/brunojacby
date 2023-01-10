@@ -5,13 +5,14 @@
 }
 
 body {
-    background-color: black;      
+    background-color: black; 
+    color: white;             
 }
 
 .container {
     width: 100vw;
     padding: 0; 
-    position: relative;   
+          
 }
 
 
@@ -20,15 +21,14 @@ body {
 ************/
 
 #sectionHome {
-    background-image: url("img/bg.jpg");
+    background-image: url("/img/bg.jpg");
     background-repeat: repeat;
     background-position: center;    
     background-size: cover;
     background-attachment: fixed;
 }
 
-.nav {
-    color: white;
+.nav {    
     border-bottom: 1px solid white;    
 }
 
@@ -47,8 +47,7 @@ body {
     display: flex;
     text-align: center;
     justify-content: center;  
-    height: 99vh;
-    color: white;
+    height: 99vh;    
     padding-top: 50px;
 }
 
@@ -70,8 +69,7 @@ body {
     PROJETOS
 ************/
 #projetos {    
-    text-align: center;
-    color: white;
+    text-align: center;    
 }
 
 #project {
@@ -94,8 +92,8 @@ h7 {
     display: block;
     text-align: center;
     height: fit-content;
-    padding: 20px 0;
-    color: white;    
+    padding: 20px 0;    
+    user-select: none;   
 }
 
 #technologies div {
@@ -121,8 +119,7 @@ h7 {
 #contato {
     margin-top: 20px;
     height: 90vh;    
-    text-align: center;       
-    color: white;    
+    text-align: center;    
 }
 
 #contato img {
@@ -150,8 +147,7 @@ h7 {
 /************
     GALLERY
 ************/
-#gallery {
-    color: white;
+#gallery {    
     text-align: center;
     display: none;    
 }
@@ -186,18 +182,32 @@ h7 {
     FOOTER
 ************/
 
-.footer {
-    color: white;
+.footer {    
     text-align: center;
     padding: 20px;
     height: 500px;
-    display: block;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     align-items: center;       
 }
 
 .footer h6 {
-    position: absolute;
-    left: 40%;
+    position: absolute;   
     margin-top: 60px;    
+}
+
+#bgtoggle img {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 50%;       
+    background-size: cover;  
+    padding: 5px;
+    margin: 20px;    
+}
+
+#bgtoggle img {
+    display: none;
 }

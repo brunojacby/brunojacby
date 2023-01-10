@@ -9,3 +9,9 @@ window.onscroll = function() {
     backToTopButton.style.display = "none";
   }
 };
+
+
+
+const changebg = () => {
+  document.body.classList.toggle("body-light") 
+}
