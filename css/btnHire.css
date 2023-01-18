@@ -23,8 +23,8 @@
 }
 
 #btnHireMe a:hover {    
-    color: white;         
-    border: 2px solid rgba(0,0,0,0);
+    color: green;         
+    border: 2px solid green;
     text-shadow: 0 0 0 var(--clr);   
     text-decoration: underline;
     font-size: 1.5em;    

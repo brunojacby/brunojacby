@@ -5,11 +5,10 @@
 @import url("css/typing.css");
 
 
-#sectionHome {
-    background-image: url("https://github.com/brunojacby/brunojacby/blob/master/img/bg.jpg?raw=true");
-    background-repeat: repeat;
+#sectionHome {    
+    background-image: url("img/bg3.jpg");
+    background-repeat: no-repeat;
     background-position: center;    
     background-size: cover;
     background-attachment: fixed;
-    filter: brightness(1.5);
 }

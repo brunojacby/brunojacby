@@ -21,19 +21,23 @@ body {
 ************/
 
 .nav {    
-    border-bottom: 1px solid white; 
-    padding-top: 20px;   
+    border-bottom: 1px solid black; 
+    padding-top: 20px;
+    background-color: rgba(255, 255, 255, 0.836);   
 }
 
 .nav a {
     text-decoration: none;
-    color: white;
-    text-transform: uppercase;    
+    color: black;
+    text-transform: uppercase; 
+    font-weight: bolder;   
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    font-size: 1.1em;
 }
 
 .nav a:hover {
     color: darkgreen;
-    text-decoration: line-through;
+    text-decoration: line-through;    
 }
 
 #home {
@@ -44,7 +48,18 @@ body {
     padding-top: 50px;
 }
 
+#homeText {
+    display: flex;   
+    flex-direction: column;
+    text-align: center;
+    justify-content: center; 
+}
+
 #home h1 {
+    font-weight: bold;
+}
+
+#home .display-5 {
     font-weight: bold;
 }
 
@@ -58,7 +73,7 @@ body {
     padding: 5px;
     margin: 20px;
     position: fixed;  
-    right: 50px; 
+    right: 10px; 
     bottom: 5px; 
     z-index: 9000;
 }
@@ -74,7 +89,7 @@ body {
    display: flex;   
    align-items: center;
    justify-content: center;
-   margin: 0 0 20px 0;   
+   margin: 0 0 20px 70px;   
 }
 
 h7 {
@@ -103,10 +118,15 @@ h7 {
 
 #technologies div span {
     padding: 20px;
+    font-weight: 400;
 }
 
 #technologies div span:hover {
     color: darkgreen;
+}
+
+.section p, .section span {
+    font-weight: 500;
 }
 
 
@@ -116,7 +136,7 @@ h7 {
 
 #contato {
     margin-top: 20px;
-    height: 60vh;    
+    height: 50vh;    
     text-align: center;    
 }
 
@@ -187,7 +207,7 @@ h7 {
     display: flex;
     flex-direction: column;
     text-align: center;
-    align-items: center;       
+    align-items: center;          
 }
 
 .footer h6 {

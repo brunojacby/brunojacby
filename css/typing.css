@@ -1,5 +1,5 @@
 .typing {
-    border-right: 1px solid white;
+    border-right: 1px solid black;
     white-space: nowrap;
     overflow: hidden;
     text-align: center;    
@@ -14,13 +14,13 @@
         width: 0;
     }
     to {
-        width: 11.1em;
+        width: 12.4em;
     }
 }
 
 @keyframes blinkCursor {
     from {
-        border-right-color: white;
+        border-right-color: black;
     }
     to {
         border-right-color: transparent;
