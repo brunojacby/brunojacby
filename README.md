@@ -13,7 +13,7 @@ I'm a Front-end Developer
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="25" height="25" />
 
 My Projects:
-https://brunojacby.github.io/brunojacby/
+https://brunojacby.com
 
 
 ###### This page is still under construction...
